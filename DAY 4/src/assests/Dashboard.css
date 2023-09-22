@@ -1,0 +1,166 @@
+/* Dashboard.css */
+
+/* Styling for the main dashboard container */
+.craft-dashboard {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Styling for the sidebar */
+  .sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    padding: 20px;
+  }
+  
+  /* Styling for the sidebar heading */
+  .sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the sidebar navigation links */
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.2s;
+  }
+  
+  .sidebar a:hover {
+    color: #007bff;
+  }
+  
+  /* Styling for the main content area */
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  /* Styling for the header */
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+  
+  /* Styling for craft cards */
+  .craft-card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 4px;
+    text-align: left;
+    transition: transform 0.2s ease-in-out; 
+  }
+  
+  /* Hover effect for craft cards */
+  .craft-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Styling for craft card titles */
+  .craft-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for craft card descriptions */
+  .craft-card p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Styling for craft card links */
+  .craft-card a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border-radius: 4px;
+     transition: background-color 0.2s ease-in-out; 
+  }
+  
+  /* Hover effect for craft card links */
+  .craft-card a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for the footer */
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Styling for the footer text */
+  .footer p {
+    font-size: 14px;
+  }
+  
+  /* Styling for the footer link */
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hover effect for the footer link */
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sidebar from top to bottom */
+  .sidebar {
+    flex-direction: column;
+    height: 100%;
+  }
+  /* Styling for navigation header */
+.nav-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    button: 300px
+    left button
+  }
+  
+  /* Styling for navbar links */
+  .nav-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Display list items horizontally */
+    align-items: center; /* Vertically center align items in the header */
+  }
+  
+  .nav-links li {
+    margin-right: 20px; /* Add spacing between list items */
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff; /* Change the color to your preference */
+    font-size: 16px;
+    transition: color 0.2s;
+  }
+  
+  .nav-links a:hover {
+    color: #007bff; /* Change the hover color to your preference */
+  }
+  
