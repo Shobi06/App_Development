@@ -1,0 +1,59 @@
+.home-page-container {
+    text-align: center;
+    padding: 20px;
+    margin-top: -750px;
+    margin-bottom: 40px;
+  }
+ 
+  .home-page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .home-page-description {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .home-page-search-bar {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .home-page-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .home-page-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 470px;
+   margin-top: -30px;
+  }
+  
+  .home-page-button:hover {
+    background-color: #555;
+  }
+  
+  .home-page-craft-categories {
+    margin-top: -220px;
+    margin-left: 1200px;
+  }
+  
+  .home-page-category-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
