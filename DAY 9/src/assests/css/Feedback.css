@@ -1,0 +1,73 @@
+/* FeedbackForm.css */
+
+/* Container */
+.feedback-form-container {
+    width: 100%;
+    max-width: 400px;
+    margin-left: 500px;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+        border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Heading */
+  .feedback-form-container h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    margin-left: 120px;
+  }
+  
+  /* Rating Section */
+  .rating-section {
+    margin-bottom: 20px;
+  }
+  
+  .star-rating {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .star-rating label {
+    font-size: 24px;
+    cursor: pointer;
+    color: #ccc;
+  }
+  
+  .star-rating label.selected {
+    color: #f0bb01;
+  }
+  
+  /* Feedback Section */
+  .feedback-section label {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: vertical;
+  }
+  
+  /* Submit Section */
+  .submit-section button {
+    background-color: #f0bb01;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 150px;
+    cursor: pointer;
+  }
+  
+  .submit-section button:hover {
+    background-color: #e2a101;
+  }
+  

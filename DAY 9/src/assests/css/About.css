@@ -1,0 +1,20 @@
+/* CustomAbout.css */
+
+.about-us-page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-content {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* You can further customize the styling as needed */
+  
