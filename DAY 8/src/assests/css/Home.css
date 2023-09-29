@@ -1,0 +1,93 @@
+.home-page-container {
+    text-align: center;
+    padding: 20px;
+    margin-top: -750px;
+    margin-bottom: 40px;
+  }
+ 
+  .home-page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .home-page-description {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .home-page-search-bar {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .home-page-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .home-page-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 470px;
+   margin-top: -30px;
+  }
+  
+  .home-page-button:hover {
+    background-color: #555;
+  }
+  
+  .home-page-craft-categories {
+    margin-top: -220px;
+    margin-left: 1200px;
+  }
+  
+  .home-page-category-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh; /* Make the container full viewport height */
+  }
+  
+  /* Add this CSS to your existing CSS file or create a new one */
+
+/* Style for the button container */
+.chart-switcher {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Style for the buttons */
+.chart-switcher button {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Text color */
+  border: none; /* Remove button border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 20px; /* Padding inside the button */
+  margin: 0 10px; /* Margin between buttons */
+  cursor: pointer; /* Show pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+
+  /* Add additional styles as needed */
+}
+
+/* Hover state for the buttons */
+.chart-switcher button:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}

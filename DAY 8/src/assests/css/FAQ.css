@@ -1,0 +1,34 @@
+/* FAQ.css */
+
+.faq-page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .faq-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  .faq-question {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .faq-answer {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* You can further customize the styling as needed */
+  

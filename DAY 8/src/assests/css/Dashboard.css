@@ -1,0 +1,102 @@
+/* CustomDashboard.css */
+
+/* Sidebar styling */
+.custom-sidebar {
+  width: 250px;/* CustomDashboard.css */
+
+  /* Sidebar styling */
+  .custom-sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  .custom-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Footer styling */
+  .custom-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Dashboard container styling */
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  /* Dashboard title styling */
+  .custom-dashboard-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Dashboard content styling */
+  .custom-dashboard-content {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  /* You can further customize the styling as needed */
+  
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Header styling */
+.custom-header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 300px;
+}
+
+/* Footer styling */
+.custom-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -350px;
+}
+
+/* Dashboard container styling */
+
+/* Dashboard title styling */
+.custom-dashboard-title {
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+/* Dashboard content styling */
+.custom-dashboard-content {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  /* Add any other styling you need */
+}
+
+/* You can further customize the styling as needed */

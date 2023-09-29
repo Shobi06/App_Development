@@ -1,0 +1,45 @@
+/* ProductDisplay.css */
+
+.product-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  max-width: 300px;
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s; /* Add transitions for smooth hover effect */
+}
+
+.product-card:hover {
+  transform: scale(1.05); /* Scale up the card on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect on hover */
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-title {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.product-description {
+  margin: 10px 0;
+}
+
+.product-price {
+  font-weight: bold;
+  color: #e74c3c;
+}
