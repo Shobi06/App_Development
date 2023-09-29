@@ -1,0 +1,26 @@
+/* Sidebar.css */
+
+/* Sidebar container styling */
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 150px;
+    height:699px
+  }
+  
+  /* Sidebar links styling */
+  .sidebar-links a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-bottom: 10px; /* Adjust the spacing between links as needed */
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  /* Sidebar links hover styling */
+  .sidebar-links a:hover {
+    color: #ff6600;
+  }
+  

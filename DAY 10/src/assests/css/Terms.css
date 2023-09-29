@@ -1,0 +1,29 @@
+.custom-terms-and-conditions-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .custom-section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .custom-sub-title {
+    font-size: 18px;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .custom-terms-text {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .custom-contact-link {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  /* You can further customize the styling as needed */
+  
